@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333232;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: black;
+  color: #6b0000;
+}
+
+ul.topnav li a.active {background-color: #6b0000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.myname {
+  text-align: center;
+  color: #6b0000;
+}
+
+.paragraph {
+  background-color: #333232;
+  width: auto;
+  font-style: italic;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #6b0000;
+}
